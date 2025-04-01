@@ -1,0 +1,442 @@
+html {
+    background-color: #b3e5fa;
+}
+
+table {
+    width: 100%;
+    height: 100vb;
+    border-collapse: collapse;
+}
+
+
+
+#topo {
+    background: linear-gradient(90deg, rgb(101, 146, 219) 0%, rgba(101, 109, 219, 1) 100%);
+    height: 100px;
+}
+
+input {
+    border: 1px;
+    height: 50px;
+    font-size: 30px;
+}
+
+#Baixo {
+    height: 2%;
+    background: linear-gradient(90deg, #656ddb 0%, #6592db 100%);
+}
+
+#pulo {
+    height: 9%;
+}
+
+#logo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    height: 100px;
+    width: 100px;
+}
+
+#NavBar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav {
+    background-color: white;
+    height: 70%;
+    width: 95%;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Pesquise {
+    & span {
+        margin-left: 20px;
+    }
+}
+
+.Julee {
+    font-family: "Julee", Arial;
+    font-size: 30px;
+}
+
+.Flavors {
+
+    font-family: "Flavors", Arial;
+    font-size: 30px;
+}
+
+#lupa {
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+
+    & img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+#Clogo {
+    width: 200px;
+}
+
+#Cnav {
+    width: 1150px;
+}
+
+
+
+#tst {
+    border: solid purple;
+}
+
+#Cmenu {
+    width: 140px
+}
+
+#Cconta {
+    width: 140px;
+}
+
+#CRAMW {
+    height: 500px;
+}
+
+#RAMW {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#fundo, #fundo2{
+    
+    width: 80%;
+    height: 500px;
+    background: linear-gradient(90deg, #65B8DB 0%, #71DBDA 100%);
+    border-radius: 100px;
+    border: solid;
+}
+
+#fundo2{display: flex;
+    justify-content: space-between;}
+
+#Rtext, #Rtext2 {
+    height: 123px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+    & span {
+        font-size: 96px;
+    }
+}
+
+#conheca {
+    height: 30px;
+    width: 680px;
+    margin-left: 30px;
+}
+
+#Play {
+    border: solid 1px;
+    border-radius: 30px;
+    width: 374px;
+    height: 136px;
+    background-color: #36A2CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 5%;
+
+    & img:hover {
+        transform: scale(1.2);
+    }
+}
+
+#tres {
+    margin-top: 2%;
+    width: 50%;
+
+}
+
+#img1,
+#img2,
+#img3 {
+    display: inline;
+    position: relative;
+    left: 70%;
+
+    & img {
+        width: 300px;
+        height: 150px;
+    }
+}
+
+#img1 {
+    bottom: 69%;
+}
+
+#img2 {
+    left: 40%;
+    bottom: 38%;
+}
+
+#img3 {
+    left: 40%;
+    bottom: 10%;
+}
+
+#Baixo1 {
+
+    height: 100px;
+
+    width: 33%;
+    float: left;
+}
+
+#Baixo2 {
+
+    height: 100px;
+
+    width: 33.2%;
+
+    float: left;
+}
+
+#Baixo3 {
+    height: 100px;
+    width: 33%;
+    float: left;
+}
+
+#logo2 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+    & img {
+        width: 100px;
+        height: 80px;
+        display: inline-block;
+    }
+}
+
+#IMGtel {
+
+    width: 27px;
+    height: 27px;
+    float: left;
+}
+
+#tel {
+    margin-top: 15px;
+}
+
+#TXTtel {
+    width: 205px;
+    margin-right: 60%;
+    float: left;
+
+    & span {
+        margin-left: 4%;
+        font-size: 20px;
+    }
+}
+
+#IMGgmail {
+
+    width: 27px;
+    height: 27px;
+    float: left;
+
+    & img {
+        width: 27px;
+        height: 27px;
+    }
+}
+
+#TXTgmail {
+
+    width: 205px;
+    float: left;
+
+    & span {
+        margin-left: 4%;
+        font-size: 20px;
+    }
+}
+
+#tel,
+#gmail {
+    display: block;
+    clear: both;
+    height: 50%;
+}
+
+#quem {
+    height: 30px;
+    width: 680px;
+    margin-left: 20%;
+
+    & span {
+        font-size: 50px;
+    }
+}
+
+#cria,
+#ctts {
+    border-radius: 30px;
+    width: 70%;
+    height: 200px;
+    background-color: #36A2CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 5%;
+
+    & span {
+        font-size: 29px;
+    }
+}
+
+#desc,
+#forms {
+    border-radius: 30px;
+    width: 80%;
+    height: 250px;
+    background-color: #36A2CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2%;
+    position: relative;
+    bottom: 450px;
+    left: 110%;
+
+    & span {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+}
+
+#links {
+    display: none;
+    background-color: white;
+    position: absolute;
+    width: 6%;
+
+    & a {
+        color: black;
+    }
+
+    & span {
+        font-size: 18px;
+    }
+}
+
+#menu:hover #links { border-radius: 30px;
+    display: block;
+}
+
+#tel,
+#gmail {
+    margin-left: 27%;
+}
+
+#formulario {
+    margin-top: 5%;
+    position: relative;
+    bottom: 430px;
+    left: 112%;
+}
+
+#forms {
+    height: 400px;
+
+    display: block;
+
+    & input {
+        border-radius: 20px;
+        width: 70%;
+    }
+
+    & span {
+        margin-top: 500px;
+    }
+}
+
+.form {
+    padding: 10px;
+
+    & button {
+        width: 200px;
+        height: 100px;
+        margin-left: 30%;
+    }
+}
+
+#formT {
+    & input {
+        width: 58%;
+    }
+}
+
+#desc {
+    margin-top: 10%;
+    height: 300px;
+
+    & span {
+        font-size: 24px;
+    }
+}
+
+#Rtext2 {
+    text-align: center;
+}
+
+#placa {
+    border-radius: 30px;
+    width: 40%;
+    height: 450px;
+    background-color: #36A2CF;
+    margin-left: 2%;
+    margin-top: 1%;
+
+    & span {
+        font-size: 40px;
+    }
+}
+
+#plc {
+    & img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+#IMGplaca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+
+    & span {
+        font-size: 50px;
+    }
+}

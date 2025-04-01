@@ -340,6 +340,7 @@ input {
     background-color: white;
     position: absolute;
     width: 6%;
+    border-radius: 30px;
 
     & a {
         color: black;
@@ -351,7 +352,7 @@ input {
 }
 
 #menu:hover #links {
-    border-radius: 30px;
+    
     display: block;
 }
 

@@ -351,6 +351,7 @@ input {
 }
 
 #menu:hover #links {
+    border-radius: 30px;
     display: block;
 }
 
